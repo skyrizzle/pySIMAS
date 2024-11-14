@@ -5,7 +5,8 @@
 **SIMAS**, which is an acronym for **SIM**ple **AS**sembly, is a dynamically typed, Just-In-Time
 (JIT) compiled, high level, procedural programming language with a syntax that is inspired
 by the Assembly programming language. In SIMAS, each line starts with an instruction,
-optionally followed by one or more operands, just like Assembly.<br>
+optionally followed by one or more operands, just like Assembly. pySIMAS is designed to be a direct 
+1-to-1 port of SIMAS from JavaScript to Python for easier changes and portability.<br>
 
 SIMAS is designed to be minimal. The run function contains all of the code you need to run
 a SIMAS program. the parameter, inputText, is your SIMAS code.<br>
